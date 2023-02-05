@@ -1,0 +1,74 @@
+{
+    "name": "SampleInputActions",
+    "maps": [
+        {
+            "name": "sampleActionMap",
+            "id": "e16cf781-c023-4769-9d88-a69e86f039d0",
+            "actions": [
+                {
+                    "name": "left",
+                    "type": "Button",
+                    "id": "d1cc6a60-be13-4e39-bde9-b777e77e82ce",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "right",
+                    "type": "Button",
+                    "id": "28147943-f350-46ad-aafb-94ec7ab65fe9",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "leftMouseButton",
+                    "type": "Button",
+                    "id": "4553477a-6036-4570-85ee-0522b572804f",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "1c01d76e-1ab5-46f2-a859-79eaa8825c02",
+                    "path": "<Keyboard>/leftArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "left",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "9c4ef9c6-1cf7-49bb-9a78-e6572903210d",
+                    "path": "<Keyboard>/rightArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "right",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "dfecacd1-2ff1-4013-942b-a0be67c43668",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "leftMouseButton",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
